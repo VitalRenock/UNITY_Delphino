@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e91740129f47014e8647efc6005fb41, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  PlayerLifeProperties:
+    CurrentLife: 100
+    MinLife: 0
+    MaxLife: 100
+    NaturalGain: 0
+    NaturalLoss: 0
+    OnMaxLife:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMinLife:
+      m_PersistentCalls:
+        m_Calls: []
+  PlayerSpeedProperties:
+    MinLinVelocityToStop: 0.1
+    MaxLinVelocity: 50
+    CurrentLinVelocity: {x: 0, y: 0, z: 0.43268552}
+    LinAccelerationPower: 0.08
+    LinDecelerationPower: 0.02
+    MinAngVelocityToStop: 0.1
+    MaxAngVelocity: 120
+    CurrentAngVelocity: {x: 0, y: 0, z: 0}
+    AngAccelerationPower: 0.2
+    AngDecelerationPower: 0.1
+  PlayerHeadSpeedProperties:
+    MinLinVelocityToStop: 0.001
+    MaxLinVelocity: 0
+    CurrentLinVelocity: {x: 0, y: 0, z: 0}
+    LinAccelerationPower: 0
+    LinDecelerationPower: 0
+    MinAngVelocityToStop: 0.001
+    MaxAngVelocity: 0
+    CurrentAngVelocity: {x: 0, y: 0, z: 0}
+    AngAccelerationPower: 80
+    AngDecelerationPower: 1
